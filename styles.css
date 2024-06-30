@@ -395,9 +395,10 @@ section.sobre {
     padding: 80px 8%;
 }
 
-.sobre .txt-sobreh2 {
-    font-size: 34px;
-    line-height: 35px;
+
+.sobre .txt-sobre h2 {
+    font-size: 30px;
+    line-height: 30px;
     text-align: center;
 }
 
@@ -406,12 +407,12 @@ section.sobre {
 }
 
 .img-sobre img {
-    width: 1005;
+    width: 100%;
 }
 
 /* portifolio */
 section.portifolio {
-    padding: 80px 8%;
+    padding: 8px 4%;
 }
 
 .img-port {
@@ -421,7 +422,29 @@ section.portifolio {
 }
 
 section.portifolio .flex {
-    gap: 60px;
+    gap: 30px;
+}
+/* formulario */
+section.formulario {
+    padding: 15px 10%;
+}
+form textarea {
+    max-width: 100%;
+    background-color: #61565628;
+    border: 0;
+    outline: 0;
+    padding: 1px 5px;
+}
+form input,
+form textarea {
+    width: 100%;
+    background-color: #61565628;
+    border: 0;
+    outline: 0;
+    padding: 20px 5px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
 }
 
 /* rodapé */
@@ -429,3 +452,10 @@ footer .flex {
     flex-direction: column;
     align-items: center;
 }
+footer {
+    padding: 50px 6%;
+    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.356);
+width: 90%;}
+
+
+
