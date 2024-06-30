@@ -25,12 +25,14 @@ body {
 
 h2.titulo {
     color: white;
-    font-size: 38px;
+    font-size: 40px;
     text-align: center;
+    font-family: teko;
 }
 
 h2.titulo span {
     color: #31b8eb;
+    font-family: teko;
 
 }
 
@@ -101,16 +103,16 @@ section.topo-do-site .flex {
 .topo-do-site h1 {
     font-family: teko;
     color: white;
-    font-size: 42px;
+    font-size: 50px;
 }
 
 .topo-do-site h1 span {
     color: #31b8eb;
-    font-size: 67px;
+    font-size: 69px;
 }
 
 .topo-do-site .txt-topo-site p {
-    color: aliceblue;
+    color: rgb(227, 238, 248);
     margin: 40px 0;
 }
 
@@ -180,17 +182,20 @@ section.sobre .flex {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
+   font-family: teko;
 
 }
 
 .sobre .txt-sobre h2 span {
     color: #31b8eb;
     display: block;
+  font-family:teko
 }
 
 .sobre .txt-sobre p {
     margin: 20px 0%;
     text-align: justify;
+
 }
 
 .btn-social button {
@@ -215,11 +220,13 @@ section.flex .img-sobre {
 section.portifolio {
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #ffffff17;
+    font-family: teko;
 }
 
 section.portifolio .flex {
     justify-content: space-around;
     margin-top: 60px;
+    font-family: teko;
 }
 
 .img-port {
@@ -252,6 +259,8 @@ section.portifolio .flex {
     font-weight: 600;
     color: #000000;
     opacity: 0.5;
+    font-family: teko;
+
 
 }
 
